@@ -1,10 +1,12 @@
 {
   "name": "Virtual Visits powered by Twilio",
   "description": "A template for getting started with Virtual Visit.",
-  "website": "https://github.com/waveformhealth",
+  "website": "https://waveformhealth.com",
+  "repository": "https://github.com/waveformhealth",
   "success_url": "/",
   "addons": [],
   "keywords": ["twilio", "kotlin", "ktor"],
+  "stack": "container",
   "env": {
     "TWILIO_ACCOUNT_SID": {
       "description": "Your Twilio Account SID. Get a free account at twilio.com/try-twilio",
