@@ -1,0 +1,34 @@
+{
+  "name": "Virtual Visits powered by Twilio",
+  "description": "A template for getting started with Virtual Visit.",
+  "website": "https://github.com/waveformhealth",
+  "success_url": "/",
+  "addons": [],
+  "keywords": ["twilio", "kotlin", "ktor"],
+  "env": {
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Your Twilio Account SID. Get a free account at twilio.com/try-twilio",
+      "value": ""
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your Twilio Auth Token. You can get it at twilio.com/console",
+      "value": ""
+    },
+    "TWILIO_API_KEY": {
+      "description": "Your Twilio API Key. You can get it at twilio.com/console/project/api-keys",
+      "value": ""
+    },
+    "TWILIO_API_SECRET": {
+      "description": "Your Twilio Auth Token. You can get it at twilio.com/console/project/api-keys",
+      "value": ""
+    },
+    "TWILIO_PHONE_NUMBER": {
+      "description": "The Twilio phone number you want to use to send SMS. Get one in the Twilio Console",
+      "value": ""
+    },
+    "INVITE_BASE_URL": {
+      "description": "The base URL sent as part of the Virtual Visit invitation",
+      "value": ""
+    }
+  }
+}
