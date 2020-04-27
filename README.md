@@ -52,7 +52,7 @@ Ensuring "Git" is selected, enter this [repository URL](https://github.com/wavef
 With the new project opened, edit your configuration to set the required [environment variables](#environment-variables):
 
 1. Run > Edit Configurations...
-1. With the active configuration selected, click the Copy icon
+1. Click the "Kotlin" dropdown, select the `virtualvisit` configuration, and click the Copy icon
 1. Ensure the "Store as project file" toggle is **not** selected
 1. Select the "Environment variables" "Browse" button to update the environment variables for this configuration
 
